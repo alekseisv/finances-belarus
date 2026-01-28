@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Финансы Беларуси - Обзор и аналитика</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ВАШ_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-ВАШ_ID');
+    </script>
+
+    <!-- Яндекс.Метрика -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(ВАШ_ID, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-chart-line"></i>
+                <h1>Финансы Беларуси</h1>
+            </div>
+            <nav>
+                <a href="#overview"><i class="fas fa-home"></i> Обзор</a>
+                <a href="#budget"><i class="fas fa-coins"></i> Бюджет</a>
+                <a href="#currency"><i class="fas fa-money-bill-wave"></i> Валюта</a>
+                <a href="#taxes"><i class="fas fa-percentage"></i> Налоги</a>
+                <a href="#analytics"><i class="fas fa-chart-bar"></i> Аналитика</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Герой-секция -->
+    <section class="hero">
+        <div class="container">
+            <h2>Актуальный финансовый обзор Республики Беларусь</h2>
+            <p>Статистика, аналитика и ключевые показатели на 2024 год</p>
+            <a href="#overview" class="btn">Начать изучение</a>
+        </div>
+    </section>
+
+    <!-- Основной контент -->
+    <main class="container">
+        <!-- Обзор -->
+        <section id="overview" class="card">
+            <h2><i class="fas fa-globe-europe"></i> Экономический обзор</h2>
+            <div class="stats-grid">
+                <div class="stat">
+                    <h3>ВВП</h3>
+                    <p class="number">~ 72 млрд $</p>
+                    <p>2023 год</p>
+                </div>
+                <div class="stat">
+                    <h3>Инфляция</h3>
+                    <p class="number">7.8%</p>
+                    <p>годовая (2023)</p>
+                </div>
+                <div class="stat">
+                    <h3>Курс USD/BYN</h3>
+                    <p class="number">3.25</p>
+                    <p>февраль 2024</p>
+                </div>
+                <div class="stat">
+                    <h3>Золотовалютные резервы</h3>
+                    <p class="number">8.1 млрд $</p>
+                    <p>на 01.01.2024</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Бюджет -->
+        <section id="budget" class="card">
+            <h2><i class="fas fa-file-invoice-dollar"></i> Государственный бюджет 2024</h2>
+            <div class="budget-grid">
+                <div class="budget-item income">
+                    <h3>Доходы</h3>
+                    <p><strong>28.5 млрд BYN</strong></p>
+                    <ul>
+                        <li>Налоговые поступления: 78%</li>
+                        <li>Неналоговые доходы: 15%</li>
+                        <li>Безвозмездные поступления: 7%</li>
+                    </ul>
+                </div>
+                <div class="budget-item expense">
+                    <h3>Расходы</h3>
+                    <p><strong>29.1 млрд BYN</strong></p>
+                    <ul>
+                        <li>Социальная сфера: 42%</li>
+                        <li>Экономика: 25%</li>
+                        <li>Общегосударственные: 18%</li>
+                        <li>Оборона и безопасность: 15%</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Валюта -->
+        <section id="currency" class="card">
+            <h2><i class="fas fa-exchange-alt"></i> Валютный рынок</h2>
+            <div class="currency-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Валюта</th>
+                            <th>Курс НБРБ</th>
+                            <th>Изменение за месяц</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fas fa-dollar-sign"></i> USD</td>
+                            <td>3.25 BYN</td>
+                            <td class="positive">+0.5%</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-euro-sign"></i> EUR</td>
+                            <td>3.52 BYN</td>
+                            <td class="negative">-0.3%</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-ruble-sign"></i> RUB</td>
+                            <td>0.035 BYN</td>
+                            <td class="positive">+1.2%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Налоги -->
+        <section id="taxes" class="card">
+            <h2><i class="fas fa-calculator"></i> Основные налоги</h2>
+            <div class="tax-grid">
+                <div class="tax-item">
+                    <h3>НДС</h3>
+                    <p class="tax-rate">20%</p>
+                    <p>Основная ставка</p>
+                </div>
+                <div class="tax-item">
+                    <h3>Налог на прибыль</h3>
+                    <p class="tax-rate">18%</p>
+                    <p>Для организаций</p>
+                </div>
+                <div class="tax-item">
+                    <h3>Подоходный налог</h3>
+                    <p class="tax-rate">13%</p>
+                    <p>Для резидентов</p>
+                </div>
+                <div class="tax-item">
+                    <h3>УСН</h3>
+                    <p class="tax-rate">5-16%</p>
+                    <p>Упрощенная система</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Аналитика -->
+        <section id="analytics" class="card">
+            <h2><i class="fas fa-chart-pie"></i> Финансовая аналитика</h2>
+            <div class="analytics-content">
+                <div class="analytics-text">
+                    <h3>Ключевые тренды 2024:</h3>
+                    <ul>
+                        <li><i class="fas fa-arrow-up"></i> Стабилизация курса белорусского рубля</li>
+                        <li><i class="fas fa-chart-line"></i> Рост ВВП на 2-3%</li>
+                        <li><i class="fas fa-industry"></i> Увеличение промышленного производства</li>
+                        <li><i class="fas fa-handshake"></i> Развитие торговли с странами ЕАЭС</li>
+                        <li><i class="fas fa-balance-scale"></i> Сбалансированный бюджет</li>
+                    </ul>
+                </div>
+                <div class="analytics-chart">
+                    <div class="chart-placeholder">
+                        <p>График роста ВВП Беларуси (2019-2024)</p>
+                        <div class="chart-bar" style="height: 30%;">2019</div>
+                        <div class="chart-bar" style="height: 40%;">2020</div>
+                        <div class="chart-bar" style="height: 50%;">2021</div>
+                        <div class="chart-bar" style="height: 65%;">2022</div>
+                        <div class="chart-bar" style="height: 80%;">2023</div>
+                        <div class="chart-bar" style="height: 95%;">2024*</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3><i class="fas fa-info-circle"></i> Информация</h3>
+                    <p>Данные основаны на официальной статистике Национального банка и Министерства финансов Республики Беларусь</p>
+                    <p>Обновлено: февраль 2024</p>
+                </div>
+                <div class="footer-links">
+                    <h3><i class="fas fa-link"></i> Полезные ссылки</h3>
+                    <a href="https://www.nbrb.by" target="_blank">Национальный банк РБ</a>
+                    <a href="https://www.minfin.gov.by" target="_blank">Минфин РБ</a>
+                    <a href="https://www.belstat.gov.by" target="_blank">Белстат</a>
+                </div>
+                <div class="footer-contact">
+                    <h3><i class="fas fa-envelope"></i> Контакты</h3>
+                    <p>Для уточнения информации:</p>
+                    <p><i class="fas fa-envelope"></i> info@finance-belarus.by</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Финансовый обзор Беларуси. Все права защищены.</p>
+                <p>Сайт размещен на GitHub Pages</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка вверх -->
+    <button id="scrollTop" title="Наверх"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
