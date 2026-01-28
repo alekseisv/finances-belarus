@@ -30,4 +30,4 @@ F:\ForW\finances-belarus\finances-belarus\obj\Debug\net10.0\refint\finances-bela
 F:\ForW\finances-belarus\finances-belarus\obj\Debug\net10.0\finances-belarus.pdb
 F:\ForW\finances-belarus\finances-belarus\obj\Debug\net10.0\finances-belarus.genruntimeconfig.cache
 F:\ForW\finances-belarus\finances-belarus\obj\Debug\net10.0\ref\finances-belarus.dll
-F:\ForW\finances-belarus\finances-belarus\obj\Debug\net10.0\compressed\sd270gaz2w-{0}-s350so5xr6-s350so5xr6.gz
+F:\ForW\finances-belarus\finances-belarus\obj\Debug\net10.0\compressed\sd270gaz2w-{0}-gwyt22xgo9-gwyt22xgo9.gz
