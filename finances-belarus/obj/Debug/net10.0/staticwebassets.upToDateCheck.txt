@@ -1,0 +1,6 @@
+wwwroot\css\style.css
+wwwroot\js\script.js
+wwwroot\index.html
+F:\ForW\finances-belarus\finances-belarus\wwwroot\css\style.css
+F:\ForW\finances-belarus\finances-belarus\wwwroot\js\script.js
+F:\ForW\finances-belarus\finances-belarus\wwwroot\index.html

@@ -1,0 +1,6 @@
+# игнорируемые файлы
+.DS_Store
+.vs/
+.vscode/
+node_modules/
+*.log
